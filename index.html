@@ -322,7 +322,7 @@ directory.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Access as a Pandas DataFrame</span>
@@ -338,7 +338,7 @@ directory.</p>
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[10]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[3]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -370,45 +370,21 @@ directory.</p>
       <th>Oil2Price</th>
       <th>PropanePrice</th>
       <th>...</th>
-      <th>SprucePrice</th>
-      <th>CoalPrice</th>
-      <th>SteamPrice</th>
-      <th>HotWaterPrice</th>
-      <th>MunicipalSalesTax</th>
-      <th>BoroughSalesTax</th>
-      <th>TMYid</th>
       <th>TMYname</th>
       <th>ElecUtilities</th>
       <th>GasPrice</th>
-    </tr>
-    <tr>
-      <th>ID</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
+      <th>aris_city</th>
+      <th>census_city</th>
+      <th>census_area</th>
+      <th>ancsa_region</th>
+      <th>railbelt</th>
+      <th>hub</th>
+      <th>avg_elec_usage</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>1</th>
+      <th>0</th>
       <td>Anchorage</td>
       <td>61.151958</td>
       <td>-149.864105</td>
@@ -420,19 +396,19 @@ directory.</p>
       <td>NaN</td>
       <td>4.50</td>
       <td>...</td>
-      <td>345.0</td>
-      <td>175.0</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>702730</td>
       <td>ANCHORAGE INTL AP, AK</td>
       <td>[(Anchorage ML&amp;P - Residential, 2), (Anchorage...</td>
       <td>0.97852</td>
+      <td>Anchorage</td>
+      <td>Anchorage municipality</td>
+      <td>Anchorage municipality</td>
+      <td>Cook Inlet Regional (CIRI)</td>
+      <td>Railbelt</td>
+      <td>True</td>
+      <td>[674.3176110825001, 616.54369648225, 568.80201...</td>
     </tr>
     <tr>
-      <th>2</th>
+      <th>1</th>
       <td>Adak</td>
       <td>51.848896</td>
       <td>-176.635422</td>
@@ -444,19 +420,19 @@ directory.</p>
       <td>4.69</td>
       <td>NaN</td>
       <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>0.04</td>
-      <td>NaN</td>
-      <td>704540</td>
       <td>ADAK NAS, AK</td>
       <td>[(Adak -TDX Residential, 677), (Adak - TDX Com...</td>
       <td>NaN</td>
+      <td>Adak</td>
+      <td>Adak city</td>
+      <td>Aleutians West Census Area</td>
+      <td>Aleut</td>
+      <td>Affordable Energy Strategy Area</td>
+      <td>False</td>
+      <td>[471.936998147, 423.45531781, 460.81549341, 42...</td>
     </tr>
     <tr>
-      <th>3</th>
+      <th>2</th>
       <td>Akutan</td>
       <td>54.134945</td>
       <td>-165.772446</td>
@@ -468,19 +444,19 @@ directory.</p>
       <td>2.45</td>
       <td>NaN</td>
       <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>704890</td>
       <td>DUTCH HARBOR, AK</td>
       <td>[(Akutan, City of - Residential, 9), (Akutan, ...</td>
       <td>NaN</td>
+      <td>Akutan</td>
+      <td>Akutan city</td>
+      <td>Aleutians East Borough</td>
+      <td>Aleut</td>
+      <td>Affordable Energy Strategy Area</td>
+      <td>False</td>
+      <td>[500.99156233, 439.98431584599996, 456.5106555...</td>
     </tr>
     <tr>
-      <th>4</th>
+      <th>3</th>
       <td>Allakaket</td>
       <td>66.561386</td>
       <td>-152.649445</td>
@@ -492,19 +468,19 @@ directory.</p>
       <td>NaN</td>
       <td>11.44</td>
       <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>701740</td>
       <td>BETTLES FIELD, AK</td>
       <td>[(Allakaket - APT - Residential, 249), (Allaka...</td>
       <td>NaN</td>
+      <td>Allakaket</td>
+      <td>Allakaket city</td>
+      <td>Yukon-Koyukuk Census Area</td>
+      <td>Doyon</td>
+      <td>Affordable Energy Strategy Area</td>
+      <td>False</td>
+      <td>[338.509000744, 291.889556239, 276.804469551, ...</td>
     </tr>
     <tr>
-      <th>5</th>
+      <th>4</th>
       <td>Angoon</td>
       <td>57.496647</td>
       <td>-134.578903</td>
@@ -516,20 +492,20 @@ directory.</p>
       <td>3.83</td>
       <td>NaN</td>
       <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>0.03</td>
-      <td>NaN</td>
-      <td>703710</td>
       <td>SITKA JAPONSKI AP, AK</td>
       <td>[(Inside Passage Electric Coop - Residential, ...</td>
       <td>NaN</td>
+      <td>Angoon</td>
+      <td>Angoon city</td>
+      <td>Hoonah-Angoon Census Area</td>
+      <td>Sealaska Corporation</td>
+      <td>Affordable Energy Strategy Area</td>
+      <td>False</td>
+      <td>[277.08055898099997, 257.757954545, 237.155612...</td>
     </tr>
   </tbody>
 </table>
-<p>5 rows × 21 columns</p>
+<p>5 rows × 28 columns</p>
 </div>
 </div>
 
@@ -541,7 +517,7 @@ directory.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># The first row in the table</span>
@@ -556,7 +532,7 @@ directory.</p>
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[11]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[4]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -581,7 +557,14 @@ TMYid                                                           702730
 TMYname                                          ANCHORAGE INTL AP, AK
 ElecUtilities        [(Anchorage ML&amp;P - Residential, 2), (Anchorage...
 GasPrice                                                       0.97852
-Name: 1, dtype: object</pre>
+aris_city                                                    Anchorage
+census_city                                     Anchorage municipality
+census_area                                     Anchorage municipality
+ancsa_region                                Cook Inlet Regional (CIRI)
+railbelt                                                      Railbelt
+hub                                                               True
+avg_elec_usage       [674.3176110825001, 616.54369648225, 568.80201...
+Name: 0, dtype: object</pre>
 </div>
 
 </div>
@@ -592,7 +575,7 @@ Name: 1, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Example that uses Python to access the data as CSV text.</span>
@@ -617,11 +600,11 @@ Name: 1, dtype: object</pre>
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>ID,Name,Latitude,Longitude,ERHRegionID,WAPRegionID,FuelRefer,FuelCityID,Oil1Price,Oil2Price,PropanePrice,BirchPrice,SprucePrice,CoalPrice,SteamPrice,HotWaterPrice,MunicipalSalesTax,BoroughSalesTax,TMYid,TMYname,ElecUtilities,GasPrice
-1,Anchorage,61.1519584655762,-149.864105224609,2,2,False,,3.0699999332428,,4.5,325.0,345.0,175.0,,,,,702730,&quot;ANCHORAGE INTL AP, AK&quot;,&quot;[(&apos;Anchorage ML&amp;P - Residential&apos;, 2), (&apos;Anchorage ML&amp;P - Commercial - Sm&apos;, 293), (&apos;Anchorage ML&amp;P - Commercial - Lg&apos;, 480), (&apos;Chugach Electric- Residential&apos;, 1), (&apos;Chugach Electric - Commercial - Sm&apos;, 361), (&apos;Chugach Electric - Commercial - Lg&apos;, 548)]&quot;,0.978519976139068
-2,Adak,51.8488960266113,-176.63542175293,2,3,False,,4.42000007629395,4.69000005722046,,,,,,,0.0399999991059303,,704540,&quot;ADAK NAS, AK&quot;,&quot;[(&apos;Adak -TDX Residential&apos;, 677), (&apos;Adak - TDX Commercial&apos;, 678)]&quot;,
-3,Akutan,54.1349449157715,-165.772445678711,2,3,False,,2.45000004768372,2.45000004768372,,,,,,,,,704890,&quot;DUTCH HARBOR, AK&quot;,&quot;[(&apos;Akutan, City of - Residential&apos;, 9), (&apos;Akutan, City of - Commercial - Sm&apos;, 288), (&apos;Akutan, City of - Commercial - Lg&apos;, 475)]&quot;,
-4,Allakaket,66.5613861083984,-152.649444580078,4,4,False,,7.0,,11.4399995803833,,,,,,,,701740,&quot;BETTLES FIELD, AK&quot;,&quot;[(&apos;Allakaket - APT - Residential&apos;, 249), (&apos;Allakaket - APT - Commercial - Sm&apos;, 291), (&apos;Allakaket - APT- Commercial - Lg&apos;, 478)]&quot;,
+<pre>,Name,Latitude,Longitude,ERHRegionID,WAPRegionID,FuelRefer,FuelCityID,Oil1Price,Oil2Price,PropanePrice,BirchPrice,SprucePrice,CoalPrice,SteamPrice,HotWaterPrice,MunicipalSalesTax,BoroughSalesTax,TMYid,TMYname,ElecUtilities,GasPrice,aris_city,census_city,census_area,ancsa_region,railbelt,hub,avg_elec_usage
+0,Anchorage,61.1519584655762,-149.864105224609,2,2,False,,3.0699999332428,,4.5,325.0,345.0,175.0,,,,,702730,&quot;ANCHORAGE INTL AP, AK&quot;,&quot;[(&apos;Anchorage ML&amp;P - Residential&apos;, 2), (&apos;Anchorage ML&amp;P - Commercial - Sm&apos;, 293), (&apos;Anchorage ML&amp;P - Commercial - Lg&apos;, 480), (&apos;Chugach Electric- Residential&apos;, 1), (&apos;Chugach Electric - Commercial - Sm&apos;, 361), (&apos;Chugach Electric - Commercial - Lg&apos;, 548)]&quot;,0.978519976139068,Anchorage,Anchorage municipality,Anchorage municipality,Cook Inlet Regional (CIRI),Railbelt,True,&quot;[674.3176110825001, 616.54369648225, 568.8020181537499, 559.5290597065, 502.68865773625, 474.855271649, 467.94495386925, 483.58090842574995, 498.77690241749997, 532.8355384270001, 575.696935941, 610.274161992]&quot;
+1,Adak,51.8488960266113,-176.63542175293,2,3,False,,4.42000007629395,4.69000005722046,,,,,,,0.0399999991059303,,704540,&quot;ADAK NAS, AK&quot;,&quot;[(&apos;Adak -TDX Residential&apos;, 677), (&apos;Adak - TDX Commercial&apos;, 678)]&quot;,,Adak,Adak city,Aleutians West Census Area,Aleut,Affordable Energy Strategy Area,False,&quot;[471.936998147, 423.45531781, 460.81549341, 424.29430280099996, 414.198261989, 408.02137305699995, 428.550250417, 419.71331168800003, 409.07778510199995, 425.893819855, 443.339960239, 463.328994468]&quot;
+2,Akutan,54.1349449157715,-165.772445678711,2,3,False,,2.45000004768372,2.45000004768372,,,,,,,,,704890,&quot;DUTCH HARBOR, AK&quot;,&quot;[(&apos;Akutan, City of - Residential&apos;, 9), (&apos;Akutan, City of - Commercial - Sm&apos;, 288), (&apos;Akutan, City of - Commercial - Lg&apos;, 475)]&quot;,,Akutan,Akutan city,Aleutians East Borough,Aleut,Affordable Energy Strategy Area,False,&quot;[500.99156233, 439.98431584599996, 456.510655517, 421.946346724, 426.966352624, 380.76338928900003, 392.608543794, 400.059089699, 410.11991491599997, 434.168674699, 445.715396996, 472.65755627]&quot;
+3,Allakaket,66.5613861083984,-152.649444580078,4,4,False,,7.0,,11.4399995803833,,,,,,,,701740,&quot;BETTLES FIELD, AK&quot;,&quot;[(&apos;Allakaket - APT - Residential&apos;, 249), (&apos;Allakaket - APT - Commercial - Sm&apos;, 291), (&apos;Allakaket - APT- Commercial - Lg&apos;, 478)]&quot;,,Allakaket,Allakaket city,Yukon-Koyukuk Census Area,Doyon,Affordable Energy Strategy Area,False,&quot;[338.509000744, 291.889556239, 276.804469551, 259.698748275, 241.22759162, 241.87788097700002, 237.01448643400002, 240.39129591, 250.339561607, 260.703968331, 289.122744033, 324.815682083]&quot;
 </pre>
 </div>
 </div>
@@ -641,7 +624,7 @@ Name: 1, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Access as a Pandas DataFrame</span>
@@ -657,7 +640,7 @@ Name: 1, dtype: object</pre>
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[12]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[6]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -796,7 +779,7 @@ Name: 1, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># The first row in the table</span>
@@ -811,7 +794,7 @@ Name: 1, dtype: object</pre>
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[13]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[7]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -838,7 +821,7 @@ Name: 1, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># The &quot;blocks&quot; field is a Python list of tuples (rate, upper usage cut-off</span>
@@ -854,7 +837,7 @@ Name: 1, dtype: object</pre>
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[14]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[8]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -878,7 +861,7 @@ Name: 1, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Access as a Pandas Series</span>
@@ -895,7 +878,7 @@ Name: 1, dtype: object</pre>
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[18]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[9]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -950,7 +933,7 @@ directory.  Further info on the processed files is below.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">get_df</span><span class="p">(</span><span class="s1">&#39;wx/tmy3/proc/700197.pkl&#39;</span><span class="p">)</span>
@@ -968,7 +951,7 @@ directory.  Further info on the processed files is below.</p>
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[20]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[10]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -1051,7 +1034,7 @@ directory.  Further info on the processed files is below.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># There is a file with summary info about each site </span>
@@ -1068,7 +1051,7 @@ directory.  Further info on the processed files is below.</p>
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[22]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[11]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -1211,7 +1194,7 @@ for more info about the data.  The original NEEP spreadsheet is found at <code>h
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># The processed data only includes the Ductless, mini-split models.</span>
@@ -1227,7 +1210,7 @@ for more info about the data.  The original NEEP spreadsheet is found at <code>h
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[23]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[12]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
