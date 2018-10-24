@@ -79,7 +79,7 @@ ID,ID,Name,Active,Type,IsCommercial,ChargesRCC,PCE,CO2,CustomerChg,DemandCharge,
 99,99,Puvurnaq Power Company - Residential,True,1,False,False,0.317299991846085,2.40000009536743,,,Puvurn,"[(nan, 0.649999976158142), (nan, nan), (nan, nan), (nan, nan), (nan, nan)]"
 101,101,"Ruby, City of - Residential",True,1,False,False,0.405699998140335,2.09999990463257,5.0,,"Ruby, ","[(nan, 0.75), (nan, nan), (nan, nan), (nan, nan), (nan, nan)]"
 102,102,Sand Point TDX - Residential,True,1,False,True,0.27250000834465,1.70000004768372,6.67999982833862,,Sand P,"[(nan, 0.5362780163995919), (nan, nan), (nan, nan), (nan, nan), (nan, nan)]"
-104,104,"Seward, City of - Residential",True,1,False,False,,1.10000002384186,21.5,,Seward,"[(nan, 0.1912700012326241), (nan, nan), (nan, nan), (nan, nan), (nan, nan)]"
+104,104,"Seward, City of - Residential",True,1,False,False,,1.10000002384186,21.5,,Seward,"[(nan, 0.17049), (nan, nan), (nan, nan), (nan, nan), (nan, nan)]"
 105,105,Nunum Iqua Electric - Residential,True,1,False,False,0.181099995970726,2.90000009536743,,,Nunum ,"[(nan, 0.39640000462532), (nan, nan), (nan, nan), (nan, nan), (nan, nan)]"
 106,106,"Sitka, City & Borough - Residential",True,1,False,False,,0.00300000002607703,20.4799995422363,,"Sitka,","[(nan, 0.156000003218651), (nan, nan), (nan, nan), (nan, nan), (nan, nan)]"
 107,107,"St. Paul, City of - Residential",True,1,False,False,0.219799995422363,1.60000002384186,,,St. Pa,"[(nan, 0.419999986886978), (nan, nan), (nan, nan), (nan, nan), (nan, nan)]"
