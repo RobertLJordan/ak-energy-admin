@@ -13880,7 +13880,9 @@ Name: 0, dtype: object</pre>
 <h2 id="Access-TMY3-Climate-Data">Access TMY3 Climate Data<a class="anchor-link" href="#Access-TMY3-Climate-Data">&#182;</a></h2><p>All of the Alaska TMY3 (Typical Meterological Year) files are available, although
 only one site is included for Anchorage (International Airport).  The files are named
 through use of the TMY3 Site ID.  Original source files ar ein the <code>wx/tmy3/raw</code>
-directory.  Further info on the processed files is below.</p>
+directory.  An Excel file containing ASHRAE 2017 Design Heating Temperatures
+for each TMY3 site is available (<code>design_temps.xlsx</code>). Further info on the 
+processed files is below.</p>
 
 <pre><code>└── wx
     └── tmy3
@@ -13899,7 +13901,8 @@ directory.  Further info on the processed files is below.</p>
             ├── 700260.csv
             ├── 700637.csv
             ├── 701043.csv
-            ... the rest of the Alaska TMY3 files</code></pre>
+            ... the rest of the Alaska TMY3 files
+            ├── design_temps.xlsx</code></pre>
 
 </div>
 </div>
@@ -14056,6 +14059,7 @@ directory.  Further info on the processed files is below.</p>
       <th>city</th>
       <th>db_temp_avg</th>
       <th>elevation</th>
+      <th>heating_design_temp</th>
       <th>latitude</th>
       <th>longitude</th>
       <th>rh_avg</th>
@@ -14076,27 +14080,30 @@ directory.  Further info on the processed files is below.</p>
       <th></th>
       <th></th>
       <th></th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>700197</th>
-      <td>SELAWIK</td>
-      <td>24.855438</td>
-      <td>26.24672</td>
-      <td>66.600</td>
-      <td>-160.000</td>
-      <td>78.158676</td>
+      <th>703870</th>
+      <td>WRANGELL</td>
+      <td>43.072918</td>
+      <td>42.65092</td>
+      <td>15.8</td>
+      <td>56.483</td>
+      <td>-132.367</td>
+      <td>75.674315</td>
       <td>AK</td>
       <td>http://ak-energy-data.analysisnorth.com/wx/tmy...</td>
       <td>-9.0</td>
-      <td>9.655307</td>
+      <td>5.976894</td>
     </tr>
     <tr>
       <th>700260</th>
       <td>BARROW W POST-W ROGERS ARPT [NSA - ARM]</td>
       <td>10.729712</td>
       <td>32.80840</td>
+      <td>-34.3</td>
       <td>71.320</td>
       <td>-156.620</td>
       <td>84.193950</td>
@@ -14106,43 +14113,46 @@ directory.  Further info on the processed files is below.</p>
       <td>12.178734</td>
     </tr>
     <tr>
-      <th>700637</th>
-      <td>DEADHORSE</td>
-      <td>14.890158</td>
-      <td>75.45932</td>
-      <td>70.200</td>
-      <td>-148.483</td>
-      <td>81.881279</td>
+      <th>702750</th>
+      <td>VALDEZ WSO</td>
+      <td>39.336438</td>
+      <td>22.96588</td>
+      <td>7.1</td>
+      <td>61.133</td>
+      <td>-146.350</td>
+      <td>74.864498</td>
       <td>AK</td>
       <td>http://ak-energy-data.analysisnorth.com/wx/tmy...</td>
       <td>-9.0</td>
-      <td>11.842146</td>
+      <td>6.165962</td>
     </tr>
     <tr>
-      <th>701043</th>
-      <td>POINT HOPE (AWOS)</td>
-      <td>24.074966</td>
-      <td>13.12336</td>
-      <td>68.350</td>
-      <td>-166.800</td>
-      <td>77.388927</td>
+      <th>702185</th>
+      <td>MEKORYUK</td>
+      <td>33.632329</td>
+      <td>49.21260</td>
+      <td>-10.6</td>
+      <td>60.367</td>
+      <td>-166.267</td>
+      <td>80.209817</td>
       <td>AK</td>
       <td>http://ak-energy-data.analysisnorth.com/wx/tmy...</td>
       <td>-9.0</td>
-      <td>15.689121</td>
+      <td>14.999576</td>
     </tr>
     <tr>
-      <th>701195</th>
-      <td>SHISHMAREF (AWOS)</td>
-      <td>25.309137</td>
-      <td>6.56168</td>
-      <td>66.267</td>
-      <td>-166.050</td>
-      <td>78.231279</td>
+      <th>702510</th>
+      <td>TALKEETNA STATE ARPT</td>
+      <td>35.236486</td>
+      <td>344.48820</td>
+      <td>-17.6</td>
+      <td>62.317</td>
+      <td>-150.100</td>
+      <td>74.301826</td>
       <td>AK</td>
       <td>http://ak-energy-data.analysisnorth.com/wx/tmy...</td>
       <td>-9.0</td>
-      <td>13.223661</td>
+      <td>5.276497</td>
     </tr>
   </tbody>
 </table>
